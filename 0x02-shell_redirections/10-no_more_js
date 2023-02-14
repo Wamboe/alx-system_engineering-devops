@@ -1,2 +1,2 @@
 #!/bin/bash
- rm $(find $(pwd) -type f -name "*.js") #find $(pwd) -type f -name "*.js" -exec rm -i {} \; 
+rm $(find $(pwd) -type f -name '*.js') 
