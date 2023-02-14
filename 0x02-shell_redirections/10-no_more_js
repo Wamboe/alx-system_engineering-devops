@@ -1,2 +1,2 @@
 #!/bin/bash
-find $(pwd) -type f -name "*.js" -exec rm {} \;
+find $(pwd) -type f -name "*.js" -delete
