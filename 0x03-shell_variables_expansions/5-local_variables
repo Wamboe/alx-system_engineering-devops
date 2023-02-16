@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" echo $(printenv) $(set)
+printf "%s\n" echo $(set) $(printenv)
