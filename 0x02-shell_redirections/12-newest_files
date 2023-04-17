@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -t | head -10
-
+find $(ls -t) -type f | head -10
