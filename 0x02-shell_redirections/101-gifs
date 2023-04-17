@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lS | find -type f -name "*.gif"
