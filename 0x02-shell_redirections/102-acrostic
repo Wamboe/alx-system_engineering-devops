@@ -1,2 +1,2 @@
-#i!/bin/bash
+#!/bin/bash
 echo $(cut -c 1 acoustic | tr -d "\n")
