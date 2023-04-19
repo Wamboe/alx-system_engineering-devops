@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cut -c 1 acoustic | tr -d "\n")
+cut -c 1 acoustic | paste -s -d ''
